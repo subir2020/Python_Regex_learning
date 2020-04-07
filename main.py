@@ -20,7 +20,7 @@ def main():
 	# For CSK: Convert 7 lists into a list of dictionaries
 	# Definition Name: Dictionarize
 	# Input: 7 lists (Port, Name, Status, Vlan, Duplex, Speed, Type)
-	# Output: Interfaces dictionary (dict_interfaces[Port] = {"Name": Name, "Status": Status, "Vlan": Vlan, "Duplex": Duplex, "Speed": Speed, "Type": Type}
+	# Output: Interfaces dictionary (dict_interfaces[Port] = {"Name": Name, "Status": Status, "Vlan": Vlan, "Duplex": Duplex, "Speed": Speed, "Type": Type})
 	# Definition Structure: dict_interfaces = Dictionarize(Port, Name, Status, Vlan, Duplex, Speed, Type)
 	# Python file name: CSK.py
 	dict_interfaces = Dictionarize(Port, Name, Status, Vlan, Duplex, Speed, Type)
